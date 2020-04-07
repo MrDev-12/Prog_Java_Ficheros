@@ -4,20 +4,20 @@ package dam105t2_ficheros;
 import java.io.*;
 
 
-public class Dam105t2e701 {
+public class Dam105t2e702 {
 
     public static void main(String[] args) {
 
-        BufferedWriter bfw = null;
+        File f = new File("archivos" + File.separator + "fich02.txt");
         
-        try {
-
-            File f = new File("archivos\\fich01.txt");
-
-            FileWriter fw = new FileWriter(f);
-
-            bfw = new BufferedWriter(fw);
+        try (
             
+            FileWriter fw = new FileWriter(f);
+            
+            BufferedWriter bfw = new BufferedWriter(fw);
+        
+        ) {
+
             bfw.write("Mi país es España");
             bfw.newLine();
 
@@ -29,20 +29,6 @@ public class Dam105t2e701 {
         } catch (IOException ex) {
 
             System.err.printf("Error: %s", ex.getMessage());
-
-        }
-
-        finally {
-
-            try{
-                
-                if (bfw != null) { bfw.close(); }
-            
-            } catch(IOException e) {
-
-                System.err.printf("Error: %s", e.getMessage());
-            
-            }
 
         }
         
