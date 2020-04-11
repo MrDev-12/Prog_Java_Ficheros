@@ -39,9 +39,9 @@ public class Dam105t2e714 {
 
             while (eof == false) {
 
-                String cadfecha = dis.readUTF();
-
                 double temp = dis.readDouble();
+                
+                String cadfecha = dis.readUTF(); 
 
                 LocalDateTime fecha = LocalDateTime.parse(cadfecha, formato);
 
@@ -55,10 +55,6 @@ public class Dam105t2e714 {
 
             }
 
-            double tempMedia = sumaTemps / cantTemps;
-
-            System.out.println("La temperatura media entre las fechas es " + tempMedia);
-
         } catch (EOFException e) {
 
             eof = true;
@@ -68,6 +64,10 @@ public class Dam105t2e714 {
             System.err.printf("%nError: %s", ex.getMessage());
 
         }
+
+        double tempMedia = sumaTemps / cantTemps;
+
+        System.out.println("La temperatura media entre las fechas es " + tempMedia);
         
     }
     

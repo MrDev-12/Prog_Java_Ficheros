@@ -31,15 +31,15 @@ public class Dam105t2e710 {
 
             while((cadena = bfr.readLine()) != null) {
 
-                int posUltCaracter = cadena.length() -1;
+                int posUltCaracter = cadena.length();
 
                 String cadNota1 = cadena.substring(posUltCaracter - 15, posUltCaracter - 10);
                 String cadNota2 = cadena.substring(posUltCaracter - 10, posUltCaracter - 5);
                 String cadNota3 = cadena.substring(posUltCaracter - 5, posUltCaracter);
 
-                double nota1 = Double.parseDouble(cadNota1);
-                double nota2 = Double.parseDouble(cadNota2);
-                double nota3 = Double.parseDouble(cadNota3);
+                double nota1 = Double.parseDouble(cadNota1.replace(',', '.'));
+                double nota2 = Double.parseDouble(cadNota2.replace(',', '.'));
+                double nota3 = Double.parseDouble(cadNota3.replace(',', '.'));
 
                 int notaFinal = (int) Math.round((nota1 * 0.20) + (nota2 * 0.30) + (nota3 * 0.50));
 

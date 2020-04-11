@@ -8,7 +8,6 @@ import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
 
-
 public class Dam105t2e712 {
 
     public static void main(String[] args) {
@@ -46,6 +45,10 @@ public class Dam105t2e712 {
 
                         LocalDateTime fechaHora = LocalDateTime.parse(fechaYhora, formato);
 
+                        dos.writeDouble(temp);
+
+                        dos.writeUTF(fechaYhora);
+
                     } catch (DateTimeParseException e) {
 
                         System.out.println("El formato de la fecha introducida no es válido");
@@ -53,10 +56,6 @@ public class Dam105t2e712 {
                         System.out.println("Vuelve a introducir una temperatura y una fecha");
 
                     }
-                    
-                    dos.writeDouble(temp);
-
-                    dos.writeUTF(fechaYhora);
 
                 }                
 

@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e701<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e701",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e702<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e702",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e703<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e703",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e704<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e704",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e705<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e705",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e706<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e706",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e707<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e707",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e708<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e708",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e709<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e709",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e710<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e710",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e712<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e712",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e713<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e713",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dam105t2e714<dam105t2_ficheros_c104cd75>",
+            "request": "launch",
+            "mainClass": "dam105t2_ficheros.Dam105t2e714",
+            "projectName": "dam105t2_ficheros_c104cd75"
+        }
+    ]
+}
