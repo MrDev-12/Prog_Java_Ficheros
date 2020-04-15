@@ -1,0 +1,7 @@
+#Configuracion MovilPrepago
+#Wed Apr 15 15:24:36 CEST 2020
+saldo=20.0
+numeroMovil=222333444
+costeEstablecLlamada=0.02
+costeMinutoLlamada=0.2
+costeConsumoMB=0.3

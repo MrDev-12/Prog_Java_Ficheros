@@ -48,7 +48,7 @@ public class Dam105t2e716 {
 
         }
 
-        // Acceso a los Datos
+        // Acceso a los Datos --- No funciona correctamente!!!
 
         System.out.println("Introduce el día y mes de la fecha que quieres consultar:");
         String dia = teclado.nextLine();
@@ -64,10 +64,7 @@ public class Dam105t2e716 {
 
             raf.seek((Integer.parseInt(dia) - 1) * TAM_REGISTRO);
 
-            int temp = raf.readInt();
-
-            System.out.println(temp);
-
+            System.out.println("La temperatura es de: " + raf.readInt());
 
         } catch (IOException ex) {
 
